@@ -22,7 +22,7 @@ jobs:
       REPORT_REPOSITORY: github/docs-content
     steps:
       - name: Check out repo's default branch
-        uses: actions/checkout@1e204e9a9253d643386038d443f96446fa156a97
+        uses: actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b
       - name: Setup Node
         uses: actions/setup-node@270253e841af726300e85d718a5f606959b2903c
         with:
